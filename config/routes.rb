@@ -1,8 +1,8 @@
 Orange::Application.routes.draw do
-  get "pages/coffee"
-  get "pages/orange"
+  get "coffee" => 'pages#coffee'
+  root "pages#orange"
 
-  
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
